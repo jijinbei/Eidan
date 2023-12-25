@@ -1,7 +1,8 @@
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome import service
 from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager
+# seleniumのversionによって使った方が良いことがある
+# from selenium.webdriver.chrome import service
+# from webdriver_manager.chrome import ChromeDriverManager
 from time import sleep
 from solve import drag_word, click_word
 from lib import MyDriver, set_problem

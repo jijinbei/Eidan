@@ -21,14 +21,12 @@ python -m venv .venv
 # linux(mac OS)
 source .venv/bin/activate
 # Windows
-.venv\scripts\activate.bat
+.venv\scripts\activate
 
 # ライブラリのインストール
 pip install -r requirements.txt
 ```
 
-# デモ動画
-![demo2](https://github.com/jijinbei/Hirotan_Solver/assets/87472238/3fc67a93-a0a3-4955-a499-5bca828ed344)
+## デモ動画
 
-# 注意点
-復習モードは解けるのを確認しているが、予習モードは確認していない
+![demo2](https://github.com/jijinbei/Hirotan_Solver/assets/87472238/3fc67a93-a0a3-4955-a499-5bca828ed344)
