@@ -1,0 +1,4 @@
+discord.py
+pip-chill
+selenium
+webdriver-manager
