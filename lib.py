@@ -34,10 +34,6 @@ class MyDriver(Chrome):
             self.is_review = True
         else:
             self.is_review = False
-    
-    def question_number(self):
-        Xpath = self.review_Xpath('/html/body/div[2]/div/div/div/div[',3,']/div/div/div[2]/h3/span')
-        return int(self.find_element(by = By.XPATH, value= Xpath).text)
 
 
 # 問題の種類と番号を入力

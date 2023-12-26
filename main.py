@@ -41,7 +41,7 @@ driver.click_button(problem_xpath)
 # 復習か予習かの判定
 driver.review_or_not()
 
-current_num = driver.question_number()
+current_num = int(driver.find_element(by = By.XPATH, value= driver.review_Xpath('/html/body/div[2]/div/div/div/div[',3,']/div/div/div[2]/h3/span')).text)
 
 for num in range(current_num,17):
     # 問題を解く
